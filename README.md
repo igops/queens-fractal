@@ -30,6 +30,3 @@ Each of these patterns represents a valid solution of the queens puzzle.
 Every chunk is a fractal too and is a valid solution itself.
 
 The patterns were found manually using a pen and a copybook while I've been obsessed by finding a quick solution for 1000 queens (inspired by [«"Simple" chess puzzle holds key to $1m prize» article](https://www.st-andrews.ac.uk/news/archive/2017/title,1539813,en.php). So, I've got a valid solution using 5 x 5 x 5 x 8 fractal chunks and probably will become a millionaire soon :).
-
-A short profiling note:
-3'125'000 queens placed in 4s (MacBook Air 1,6 GHz Intel Core i5).
