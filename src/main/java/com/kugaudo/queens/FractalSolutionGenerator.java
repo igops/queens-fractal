@@ -11,12 +11,23 @@ import java.util.Set;
  * 
  * The pattern of 5-chunk fractal (an arrow shows a start point):
  *
- * WW WW -> WW WW WW
- * 
+ *    WW
+ *          WW
+ *   -> WW
+ *  WW  
+ *        WW
+ *         
  * The pattern of 8-chunk fractal (an arrow shows a start point):
  * 
- * WW WW WW WW -> WW WW WW WW
- * 
+ *        WW
+ *            WW
+ *      WW
+ *                  WW
+ * -> WW           
+ *                WW
+ *          WW     
+ *              WW
+ *              
  * Each of these patterns represents a valid solution of the queens puzzle.
  * Every chunk is a fractal also.
  * 
